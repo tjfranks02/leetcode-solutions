@@ -9,14 +9,14 @@
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
-        int i = 0;
         int n_spots = flowerbed.size();
         
         int prev = 0;
+        int i = 0;
 
         while (i < n_spots && n > 0) {
             int curr = flowerbed[i];
-            int next = i == flowerbed.size() - 1 ? 0 : flowerbed[i + 1];
+            int next = i == n_spots - 1 ? 0 : flowerbed[i + 1];
 
             if (prev == 0 && curr == 0 && next == 0) {
                 n--;
