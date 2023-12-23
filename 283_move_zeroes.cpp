@@ -25,7 +25,6 @@ public:
  * of the outer loop. This is unnecessary, since we know that r will always be >= l. So we can just
  * set r to max(r, l) instead.
  * 
- * 
  */
 class FasterSolution {
 public:
