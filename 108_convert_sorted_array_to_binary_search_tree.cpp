@@ -1,6 +1,6 @@
 /**
  * Solution that I hadn to steal from the leetcode discussion section. I had a different idea but
- * it wouldn't have produced a balanced tree.
+ * it wouldn't have produced a balanced tree. Binary search is a weakness for sure!
  * 
  */
 class Solution {
