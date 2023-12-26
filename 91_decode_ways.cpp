@@ -1,7 +1,7 @@
 /**
  * Decode ways. Had to look at the solution for this one.
  * 
- * Kinda had the right idea but couldn't get one that generalises to all cases.
+ * Kinda had the right idea but couldn't get one that generalises to all cases. OH well!
  */
 class Solution {
 public:
